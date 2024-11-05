@@ -1,0 +1,28 @@
+{
+    "consultas": [
+        {
+            "nombre": "Consumo bajo anual 2014",
+            "capa": "Consumo 2014",
+            "columna": "? consu an",
+            "operador": "<",
+            "unidad": 100,
+            "color": "green"
+        },
+        {
+            "nombre": "Consumo alto anual 2014",
+            "capa": "Consumo 2014",
+            "columna": "? consu an",
+            "operador": ">",
+            "unidad": 100,
+            "color": "red"
+        },
+        {
+            "nombre": "Calidad del agua",
+            "capa": "Calidad 2014",
+            "columna": "pH",
+            "operador": ">",
+            "unidad": 7,
+            "color": "yellow"
+        }
+    ]
+}
